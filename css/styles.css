@@ -74,7 +74,8 @@ img {
 }
 
 .one,
-.two {
+.two,
+.three {
   width: 500px;
   height: 500px;
   display: block;
@@ -82,7 +83,8 @@ img {
 }
 
 .sec1,
-.sec2 {
+.sec2,
+.sec3 {
   width: 100vw;
   height: 100vh;
   margin-top: 50px;
@@ -91,9 +93,29 @@ img {
   padding: 0 20px;
   align-items: center;
 }
+.sec4 {
+  display: flex;
+  margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.sec4 p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.pics {
+  display: flex;
+  margin-top: 24px;
+}
 
 .sec1 p,
-.sec2 p {
+.sec2 p,
+.sec3 p {
   font-family: sans-serif;
   font-weight: 100;
   text-align: center;
