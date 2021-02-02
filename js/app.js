@@ -103,8 +103,8 @@ gsap
   .add(text3in, '<');
 
 const fadein4 = gsap.from('.sec4', { autoAlpha: 0 });
-const allin = gsap.from('.pics div', { y: -100 });
-const text4in = gsap.from('#text4', { x: -400, stagger: 0.7 });
+const allin = gsap.from('.pics div', { y: -100, stagger: 0.7 });
+const text4in = gsap.from('#text4', { x: -400 });
 
 gsap
   .timeline({
