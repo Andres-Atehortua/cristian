@@ -5,6 +5,7 @@
 }
 body {
   background-color: #efefef;
+  overflow-x: hidden;
 }
 
 .animation {
@@ -171,4 +172,14 @@ img {
   font-size: 18px;
   text-align: center;
   margin: 15px 0;
+}
+
+.audios {
+  text-align: center;
+}
+
+.audios button {
+  margin: 20px;
+  width: 150px;
+  height: 100px;
 }
