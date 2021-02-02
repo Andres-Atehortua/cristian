@@ -7,12 +7,12 @@ for (let i = 0; i < 100; i++) {
   blocks[i].style.animationDuration = duration + 's';
 }
 
-const mierdaAu = new Audio('../assets/puta-mierda.mp3');
-const plomoAu = new Audio('../assets/plomo.mp3');
-const guapoAu = new Audio('../assets/guapo.mp3');
-const deduccionAu = new Audio('../assets/deduccion.mp3');
-const brendaAu = new Audio('../assets/brenda.mp3');
-const andresAu = new Audio('../assets/andres.mp3');
+const mierdaAu = new Audio('./assets/puta-mierda.mp3');
+const plomoAu = new Audio('./assets/plomo.mp3');
+const guapoAu = new Audio('./assets/guapo.mp3');
+const deduccionAu = new Audio('./assets/deduccion.mp3');
+const brendaAu = new Audio('./assets/brenda.mp3');
+const andresAu = new Audio('./assets/andres.mp3');
 
 const mierda = document.querySelector('.mierda');
 const defensa = document.querySelector('.defensa');
